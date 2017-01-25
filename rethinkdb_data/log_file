@@ -1,0 +1,63 @@
+2017-01-23T21:58:47.184548000 40.034518s notice: Recursively removing directory /Users/nielshansen/Documents/react-horizon-rethinkdb/rethinkdb_data/tmp
+2017-01-23T21:58:47.188696000 40.038669s notice: Initializing directory /Users/nielshansen/Documents/react-horizon-rethinkdb/rethinkdb_data
+2017-01-23T21:58:47.189088000 40.039057s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/nielshansen/Documents/react-horizon-rethinkdb/rethinkdb_data' did not already exist or is empty.)
+2017-01-23T21:58:47.189299000 40.039268s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-01-23T21:58:47.200604000 40.050573s notice: Running on Darwin 16.3.0 x86_64
+2017-01-23T21:58:47.200644000 40.050612s notice: Loading data from directory /Users/nielshansen/Documents/react-horizon-rethinkdb/rethinkdb_data
+2017-01-23T21:58:47.399206000 40.249174s info: Cache size is set to 200 MB
+2017-01-23T21:58:47.400113000 40.250081s notice: Listening for intracluster connections on port 62718
+2017-01-23T21:58:47.406058000 40.256026s notice: Listening for client driver connections on port 62719
+2017-01-23T21:58:47.406171000 40.256139s notice: Listening for administrative HTTP connections on port 62720
+2017-01-23T21:58:47.406210000 40.256178s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-01-23T21:58:47.406228000 40.256196s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-01-23T21:58:47.406230000 40.256197s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-01-23T21:58:47.406236000 40.256203s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-01-23T21:58:47.406246000 40.256214s notice: Server ready, "Nielss_MacBook_Pro_local_btm" 598c2d42-2583-4b38-bd13-8b0299c3c59f
+2017-01-23T21:58:48.099680000 40.949667s info: Table d844c101-adbf-41d4-9b01-541aec9fa58b: Starting a new Raft election for term 1.
+2017-01-23T21:58:48.100394000 40.950381s info: Table d844c101-adbf-41d4-9b01-541aec9fa58b: Added replica on this server.
+2017-01-23T21:58:48.138635000 40.988622s info: Table 1e99d431-2aa9-4371-846a-4f238d150aa5: Starting a new Raft election for term 1.
+2017-01-23T21:58:48.138849000 40.988836s info: Table 1e99d431-2aa9-4371-846a-4f238d150aa5: Added replica on this server.
+2017-01-23T21:58:48.138854000 40.988841s info: Table 422ea96a-93fb-4129-950e-a00627fb3ec3: Starting a new Raft election for term 1.
+2017-01-23T21:58:48.138962000 40.988949s info: Table 422ea96a-93fb-4129-950e-a00627fb3ec3: Added replica on this server.
+2017-01-23T21:58:48.166810000 41.016797s info: Table d844c101-adbf-41d4-9b01-541aec9fa58b: This server is Raft leader for term 1. Latest log index is 0.
+2017-01-23T21:58:48.167174000 41.017161s info: Table 1e99d431-2aa9-4371-846a-4f238d150aa5: This server is Raft leader for term 1. Latest log index is 0.
+2017-01-23T21:58:48.167224000 41.017210s info: Table 422ea96a-93fb-4129-950e-a00627fb3ec3: This server is Raft leader for term 1. Latest log index is 0.
+2017-01-23T21:58:49.507077000 42.357083s info: Table 320e73ac-adb6-47f7-86c1-1c43dd9204b3: Starting a new Raft election for term 1.
+2017-01-23T21:58:49.507273000 42.357279s info: Table 320e73ac-adb6-47f7-86c1-1c43dd9204b3: Added replica on this server.
+2017-01-23T21:58:49.532103000 42.382109s info: Table 320e73ac-adb6-47f7-86c1-1c43dd9204b3: This server is Raft leader for term 1. Latest log index is 0.
+2017-01-23T22:00:19.258097000 132.109241s info: Table 157d4827-b3d0-4b0f-a66c-a60d327c0b49: Starting a new Raft election for term 1.
+2017-01-23T22:00:19.258377000 132.109520s info: Table 157d4827-b3d0-4b0f-a66c-a60d327c0b49: Added replica on this server.
+2017-01-23T22:00:19.280473000 132.131616s info: Table 157d4827-b3d0-4b0f-a66c-a60d327c0b49: This server is Raft leader for term 1. Latest log index is 0.
+2017-01-23T22:38:04.390198000 2397.299675s info: Table 157d4827-b3d0-4b0f-a66c-a60d327c0b49: Configuration is changing.
+2017-01-25T23:36:48.547572000 68160.911300s notice: Server got SIGINT from pid 1861, uid 501; shutting down...
+2017-01-25T23:36:48.555691000 68160.919408s notice: Shutting down client connections...
+2017-01-25T23:36:48.579989000 68160.943707s notice: All client connections closed.
+2017-01-25T23:36:48.580005000 68160.943722s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-01-25T23:36:48.586028000 68160.949745s error: Error in src/rdb_protocol/artificial_table/cfeed_backend.cc at line 122:
+2017-01-25T23:36:48.586061000 68160.949778s error: Guarantee failed: [machinery->can_be_removed()] 
+2017-01-25T23:36:48.586074000 68160.949791s error: Backtrace:
+2017-01-25T23:36:48.589313000 68160.953030s error: Wed Jan 25 23:36:48 2017\n\n1 [0x10a1ac834]: 0   rethinkdb                           0x000000010a1ac834 _Z11deserializeIL17cluster_version_t8EE16archive_result_tP13read_stream_tP17repli_timestamp_t + 548 at 0x10a1ac834 ()\n2 [0x109c2e3ec]: 0   rethinkdb                           0x0000000109c2e3ec _ZN9starter_t11run_wrapperERKNSt3__18functionIFvvEEE + 18892 at 0x109c2e3ec ()\n3 [0x109c2f707]: 0   rethinkdb                           0x0000000109c2f707 _ZN9starter_t11run_wrapperERKNSt3__18functionIFvvEEE + 23783 at 0x109c2f707 ()\n4 [0x109c2df30]: 0   rethinkdb                           0x0000000109c2df30 _ZN9starter_t11run_wrapperERKNSt3__18functionIFvvEEE + 17680 at 0x109c2df30 ()\n5 [0x109f29d76]: 0   rethinkdb                           0x0000000109f29d76 _Z11deserializeIL17cluster_version_t8EE16archive_result_tP13read_stream_tP13name_string_t + 13750 at 0x109f29d76 ()\n6 [0x109f75e96]: 0   rethinkdb                           0x0000000109f75e96 _ZNK4utf810iterator_tIPKcE17error_explanationEv + 178086 at 0x109f75e96 ()\n7 [0x109e0326c]: 0   rethinkdb                           0x0000000109e0326c _Z11deserializeIL17cluster_version_t8EE16archive_result_tP13read_stream_tP29server_config_business_card_t + 121980 at 0x109e0326c ()\n8 [0x109e033be]: 0   rethinkdb                           0x0000000109e033be _Z11deserializeIL17cluster_version_t8EE16archive_result_tP13read_stream_tP29server_config_business_card_t + 122318 at 0x109e033be ()\n9 [0x109d1f032]: 0   rethinkdb                           0x0000000109d1f032 _Z11deserializeIL17cluster_version_t8EE16archive_result_tP13read_stream_tP8timespec + 266882 at 0x109d1f032 ()\n10 [0x109d1a9db]: 0   rethinkdb                           0x0000000109d1a9db _Z11deserializeIL17cluster_version_t8EE16archive_result_tP13read_stream_tP8timespec + 248875 at 0x109d1a9db ()\n11 [0x109d1c8f3]: 0   rethinkdb                           0x0000000109d1c8f3 _Z11deserializeIL17cluster_version_t8EE16archive_result_tP13read_stream_tP8timespec + 256835 at 0x109d1c8f3 ()\n12 [0x109ceb11c]: 0   rethinkdb                           0x0000000109ceb11c _Z11deserializeIL17cluster_version_t8EE16archive_result_tP13read_stream_tP8timespec + 54124 at 0x109ceb11c ()\n13 [0x109ceba70]: 0   rethinkdb                           0x0000000109ceba70 _Z11deserializeIL17cluster_version_t8EE16archive_result_tP13read_stream_tP8timespec + 56512 at 0x109ceba70 ()\n14 [0x109d0adc4]: 0   rethinkdb                           0x0000000109d0adc4 _Z11deserializeIL17cluster_version_t8EE16archive_result_tP13read_stream_tP8timespec + 184340 at 0x109d0adc4 ()\n15 [0x109c29a38]: 0   rethinkdb                           0x0000000109c29a38 _ZN9starter_t11run_wrapperERKNSt3__18functionIFvvEEE + 24 at 0x109c29a38 ()\n16 [0x109c24af5]: 0   rethinkdb                           0x0000000109c24af5 _ZN8signal_t5pulseEv + 7973 at 0x109c24af5 ()
+2017-01-25T23:36:48.589751000 68160.953468s error: Exiting.
+2017-01-25T23:36:49.383368000 68161.747139s notice: Storage engine shut down.
+2017-01-25T23:37:39.737349000 40.031779s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-01-25T23:37:39.747302000 40.041726s notice: Running on Darwin 16.3.0 x86_64
+2017-01-25T23:37:39.747346000 40.041769s notice: Loading data from directory /Users/nielshansen/Documents/react-horizon-rethinkdb/rethinkdb_data
+2017-01-25T23:37:39.794049000 40.088473s info: Cache size is set to 200 MB
+2017-01-25T23:37:39.794447000 40.088870s notice: Listening for intracluster connections on port 56100
+2017-01-25T23:37:39.848044000 40.142468s notice: Listening for client driver connections on port 56101
+2017-01-25T23:37:39.848150000 40.142573s notice: Listening for administrative HTTP connections on port 56102
+2017-01-25T23:37:39.848222000 40.142645s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-01-25T23:37:39.848224000 40.142647s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-01-25T23:37:39.848225000 40.142648s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-01-25T23:37:39.848227000 40.142650s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-01-25T23:37:39.848228000 40.142652s notice: Server ready, "Nielss_MacBook_Pro_local_btm" 598c2d42-2583-4b38-bd13-8b0299c3c59f
+2017-01-25T23:37:40.893198000 41.187676s info: Table 320e73ac-adb6-47f7-86c1-1c43dd9204b3: Starting a new Raft election for term 2.
+2017-01-25T23:37:40.915786000 41.210264s info: Table 320e73ac-adb6-47f7-86c1-1c43dd9204b3: This server is Raft leader for term 2. Latest log index is 5.
+2017-01-25T23:37:41.206031000 41.500509s info: Table 157d4827-b3d0-4b0f-a66c-a60d327c0b49: Starting a new Raft election for term 2.
+2017-01-25T23:37:41.235860000 41.530338s info: Table 157d4827-b3d0-4b0f-a66c-a60d327c0b49: This server is Raft leader for term 2. Latest log index is 5.
+2017-01-25T23:37:41.317996000 41.612474s info: Table 422ea96a-93fb-4129-950e-a00627fb3ec3: Starting a new Raft election for term 2.
+2017-01-25T23:37:41.337210000 41.631688s info: Table 422ea96a-93fb-4129-950e-a00627fb3ec3: This server is Raft leader for term 2. Latest log index is 5.
+2017-01-25T23:37:41.610881000 41.905359s info: Table 1e99d431-2aa9-4371-846a-4f238d150aa5: Starting a new Raft election for term 2.
+2017-01-25T23:37:41.653253000 41.947731s info: Table d844c101-adbf-41d4-9b01-541aec9fa58b: Starting a new Raft election for term 2.
+2017-01-25T23:37:41.655094000 41.949572s info: Table 1e99d431-2aa9-4371-846a-4f238d150aa5: This server is Raft leader for term 2. Latest log index is 4.
+2017-01-25T23:37:41.741172000 42.035650s info: Table d844c101-adbf-41d4-9b01-541aec9fa58b: This server is Raft leader for term 2. Latest log index is 4.
