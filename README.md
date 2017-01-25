@@ -1,4 +1,7 @@
 # react-horizon-rethinkdb
+
+A example chat implementation with horizon/rethink and react with realtime capabilities
+
 ### REQUIREMENTS!
 ```
 Rethinkdb npm install -g rethinkdb
