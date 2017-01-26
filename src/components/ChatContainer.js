@@ -2,6 +2,11 @@ import React from 'react';
 import ChatInput from './ChatInput';
 import ChatMessage from './ChatMessage';
 
+// ======================================
+// chat Container for wrapping it and in charge of
+// passing the data and actions around
+// ======================================
+
 const ChatContainer = ({ messages, addMessage, deleteMessage }) => (
   <div>
     <ChatInput addMessage={addMessage} />

@@ -1,5 +1,9 @@
 import React from 'react';
+// ======================================
+// in charge of rendering a chat message
+// ======================================
 
+// all component styles
 const styles = {
   container: {
     textAlign: 'left',
@@ -13,24 +17,25 @@ const styles = {
     textAlign: 'right',
     color: '#c0c0c0',
     fontSize: '12px'
+  },
+  btn: {
+    float: 'left',
+    border: 'none',
+    color: '#d8d8d8',
+    backgroundColor: 'transparent',
+    outline: 'none'
   }
 }
 
+// destructing passed in props
 const ChatMessage = ({ message, deleteMessage }) => (
     <div style={styles.container}>
-
       <div style={styles.txtBox}>
         {message.text}
       </div>
       <div style={styles.author}>
         <button
-          style={{
-            float: 'left',
-            border: 'none',
-            color: '#d8d8d8',
-            backgroundColor: 'transparent',
-            outline: 'none'
-          }}
+          style={styles.btn}
           onClick={() => deleteMessage(message.id)}>
           delete
         </button>
